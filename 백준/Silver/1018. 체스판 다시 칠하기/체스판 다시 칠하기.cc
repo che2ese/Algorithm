@@ -51,14 +51,13 @@ int main(){
                 if (count1 < minChanges) {
                     minChanges = count1;
                 }
-            } else {
+            } 
+            else {
                 if (count2 < minChanges) {
                     minChanges = count2;
                 }
             }
-            
         }
     }
-
     cout << minChanges << endl;
 }
