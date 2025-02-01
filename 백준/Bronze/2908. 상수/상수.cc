@@ -17,9 +17,6 @@ int main() {
         newInput1[i] = input1[2 - i];  
         newInput2[i] = input2[2 - i];  
     }
-    newInput1[3] = '\0'; 
-    newInput2[3] = '\0'; 
-
 
     if(Change(newInput1) > Change(newInput2))
         cout << Change(newInput1) << endl;
